@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7443dacf-fe76-4d87-bced-2822ffc42041" name="Default Changelist" comment="" />
+    <list default="true" id="7443dacf-fe76-4d87-bced-2822ffc42041" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logToFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logToFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moduleB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jA0eqVZ2TTofsYd0HVctPBtpqc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +46,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.LogToFile">
+  <component name="RunManager" selected="Application.LogToConsole">
     <configuration name="LogToConsole" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogToConsole" />
       <module name="moduleA" />
@@ -53,8 +63,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LogToFile" />
         <item itemvalue="Application.LogToConsole" />
+        <item itemvalue="Application.LogToFile" />
       </list>
     </recent_temporary>
   </component>
@@ -69,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603231687487</updated>
       <workItem from="1603231692365" duration="1763000" />
-      <workItem from="1603269199898" duration="6068000" />
+      <workItem from="1603269199898" duration="6709000" />
+      <workItem from="1603304704778" duration="3379000" />
     </task>
     <servers />
   </component>
@@ -84,26 +95,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1603231750098" />
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1603275324034">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1603306616866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603275324034" />
-    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1603275324033">
+    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603306616866" />
+    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1603306616866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603275324033" />
-    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1603275324033">
+    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603306616866" />
+    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1603306616866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603275324033" />
-    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1603275324033">
+    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603306616866" />
+    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1603306616866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603275324033" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1603269200931">
+    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603306616866" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1603304709067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603269200931" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603304709067" />
     <state x="209" y="117" key="new project wizard" timestamp="1603231993571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

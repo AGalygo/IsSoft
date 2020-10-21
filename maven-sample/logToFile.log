@@ -27,3 +27,6 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 21.10.2020 13:15:24.631 [main] INFO   LogToFile - Just a log message.
 21.10.2020 13:15:24.635 [main] DEBUG  LogToFile - Message for debug level.
 21.10.2020 13:15:24.635 [main] DEBUG  LogToFile - a<0
+21.10.2020 21:56:29.624 [main] INFO   LogToFile - Just a log message.
+21.10.2020 21:56:29.664 [main] DEBUG  LogToFile - Message for debug level.
+21.10.2020 21:56:29.665 [main] DEBUG  LogToFile - a<0
