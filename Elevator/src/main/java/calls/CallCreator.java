@@ -46,7 +46,7 @@ public class CallCreator implements Runnable {
             while (boardingFloor == destinationFloor);
             Human passenger = Human.of(name, weight, boardingFloor, destinationFloor);
             tasks.addCall(passenger);
-            log.info("Passenger " + passenger.toString() + " is waiting the elevator. \nTotal waiting passengers: " +tasks.size());
+            log.info("Passenger " + passenger.toString() + " is waiting the elevator. \nTotal waiting passengers: " + tasks.size());
             TimeUnit.SECONDS.sleep(random.nextInt(20));
         }
     }

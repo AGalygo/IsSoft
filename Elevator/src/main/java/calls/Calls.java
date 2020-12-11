@@ -23,7 +23,7 @@ public class Calls {
     public static Calls getInstance() {
         if (Calls.INSTANCE == null) {
             synchronized (Calls.class) {
-                if(INSTANCE == null) {
+                if (INSTANCE == null) {
                     INSTANCE = new Calls();
                 }
             }
