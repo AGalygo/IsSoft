@@ -3,7 +3,6 @@ package entity;
 import Enum.Direction;
 import calls.Calls;
 import lombok.Getter;
-import lombok.Setter;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,16 +17,15 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 @Getter
-@Setter
 @Slf4j
 public class Elevator implements Runnable {
     private Integer capacity;
-    private Integer speed;
-    private Integer timeOpenCloseDoors;
+    private final Integer speed;
+    private final Integer timeOpenCloseDoors;
     private Integer currentFloor;
-    private Integer floorHeight;
+    private final Integer floorHeight;
     private List<Human> passengers;
-    private Integer MAX_FLOOR;
+    private final Integer MAX_FLOOR;
     private Direction direction;
     private Human call;
     private boolean stopped;

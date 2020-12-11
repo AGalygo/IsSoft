@@ -11,8 +11,6 @@ import java.util.Optional;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-@Setter
-@Getter
 
 public class Calls {
 

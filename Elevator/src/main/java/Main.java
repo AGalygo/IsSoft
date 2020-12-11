@@ -9,16 +9,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Calls calls = Calls.getInstance();
-        calls.addCall(Human.of("Alex", 80, 8, 11));
-        calls.addCall(Human.of("Alena", 80, 11, 3));
-        calls.addCall(Human.of("James", 80, 10, 1));
-        calls.addCall(Human.of("llll", 80, 10, 1));
-        calls.addCall(Human.of("4444", 80, 4, 8));
-        calls.addCall(Human.of("5555", 80, 9, 6));
-        calls.addCall(Human.of("6666", 80, 2, 6));
-
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Building parameters: \n 1) input address of the building: ");
@@ -55,7 +45,7 @@ public class Main {
         callersThread.setName("CallCreator");
         callersThread.start();
 
-        for (int i = 0; i < number; i++) {  //переписать оба фора
+        for (int i = 0; i < number; i++) {
             Thread elevatorsThread = new Thread(building.getElevators().get(i));
             elevatorsThread.setName("Elevator-"+(i+1));
             elevatorsThread.start();

@@ -12,9 +12,9 @@ import static com.google.common.base.Preconditions.checkNotNull;
 @Getter
 @Slf4j
 public class Building {
-    private String address;
-    private Integer numberOfFloors;
-    private Integer floorHeight;
+    private final String address;
+    private final Integer numberOfFloors;
+    private final Integer floorHeight;
     private List<Elevator> elevators;
 
     public Building(String address, Integer numberOfFloors, Integer floorHeight) {

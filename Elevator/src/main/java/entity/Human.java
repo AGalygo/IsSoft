@@ -7,11 +7,11 @@ import lombok.Getter;
 @Getter
 public class Human {
 
-    private String name;
-    private int weight;
-    private int boardingFloor;
-    private int destinationFloor;
-    private Direction direction;
+    private final String name;
+    private final int weight;
+    private final int boardingFloor;
+    private final int destinationFloor;
+    private final Direction direction;
     private static Integer MAX_WEIGHT = 400;
 
     public Human(String name, int weight, int boardingFloor, int destinationFloor) {
